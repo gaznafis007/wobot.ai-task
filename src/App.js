@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./assets/wobot_logo_blue.svg";
 import "./App.css";
 
 function App() {
