@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="max-w-screen-2xl min-h-screen mx-auto bg-main">
       <Navbar />
-      <div className="flex justify-center items-center pt-40 pb-28">
+      <div className="flex justify-center items-center  pb-28">
         <Card />
       </div>
       <p className="text-center pb-14 text-[#545454] text-sm">

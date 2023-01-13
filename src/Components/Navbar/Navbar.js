@@ -34,7 +34,11 @@ const Navbar = () => {
           </ul>
         </div>
         <a href="https://wobot.ai/">
-          <img src={logo} className="hidden lg:block w-40" alt="company-logo" />
+          <img
+            src={logo}
+            className="hidden lg:block w-40 p-4"
+            alt="company-logo"
+          />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
