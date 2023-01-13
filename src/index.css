@@ -16,7 +16,11 @@ body {
 .bg-newBlue:hover{
   color: black
 }
-
+.btn-primary:hover{
+  background-color: #3766B8;
+  color: white;
+  border: #3766B8
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

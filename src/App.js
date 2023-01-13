@@ -11,7 +11,8 @@ function App() {
         <Card />
       </div>
       <p className="text-center pb-14 text-[#545454] text-sm">
-        Terms of use | Privacy policy
+        <a href="https://wobot.ai/terms">Terms of use</a> |{" "}
+        <a href="https://wobot.ai/privacy">Privacy policy</a>
       </p>
     </div>
   );
