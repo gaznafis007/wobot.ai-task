@@ -5,7 +5,7 @@ import Card from "./Components/Card/Card";
 
 function App() {
   return (
-    <div className="max-w-screen-2xl min-h-screen mx-auto bg-main">
+    <div className=" min-h-screen mx-auto bg-main">
       <Navbar />
       <div className="flex justify-center items-center  pb-28">
         <Card />

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/wobotlogo.png";
+import mobileLogo from "../../assets/Wobot_ai_Logo.jpg";
 
 const Navbar = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
           >
             <li>
               <a href="https://wobot.ai/">
-                <img src={logo} alt="company-logo" />
+                <img src={mobileLogo} alt="company-logo" />
               </a>
             </li>
           </ul>

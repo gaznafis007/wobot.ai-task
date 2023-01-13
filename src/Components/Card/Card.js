@@ -77,8 +77,8 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className="card-actions justify-center p-10">
-        <button className="btn btn-primary border-newBlue bg-newBlue btn-block">
+      <div className="card-actions justify-center px-8 p-6">
+        <button className="btn btn-primary border-newBlue bg-newBlue btn-block mb-4">
           Get started
         </button>
       </div>
