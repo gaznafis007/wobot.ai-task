@@ -58,7 +58,7 @@ const Card = () => {
             ))}
           </select>
         </div>
-        <div className="form-control mt-6">
+        <div className="mt-6 -ml-20">
           <p className="text-left">Company size</p>
           <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 items-center gap-2 mt-2">
             {companySizes.map((companySize, idx) => (
@@ -66,8 +66,8 @@ const Card = () => {
                 key={idx}
                 className={` ${
                   (selected === idx &&
-                    " btn btn-sm btn-ghost bg-newBlue text-white hover:text-black hover:bg-light") ||
-                  "btn btn-sm btn-ghost bg-light"
+                    " btn btn-sm btn-ghost bg-newBlue text-white rounded hover:text-black hover:bg-light") ||
+                  "btn btn-sm btn-ghost rounded bg-light"
                 }`}
                 onClick={() => handleSelect(idx)}
               >

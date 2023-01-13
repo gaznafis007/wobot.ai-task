@@ -10,6 +10,9 @@ function App() {
       <div className="flex justify-center items-center pt-40 pb-28">
         <Card />
       </div>
+      <p className="text-center pb-14 text-[#545454] text-sm">
+        Terms of use | Privacy policy
+      </p>
     </div>
   );
 }
